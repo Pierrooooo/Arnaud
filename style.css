@@ -92,6 +92,7 @@ header nav{
 .menu_burger ul li{
     width: 350px;
     margin: 0.5rem 0;
+    text-align: right;
 }
 .menu_burger ul li a{
     font-size: 1.6rem;
@@ -101,11 +102,16 @@ header nav{
 header nav .Arnaud{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
+}
+.Arnaud img{
+    max-width: 100px;
+    max-height: 100px;
 }
 .menu_burger{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 2rem;
 }
@@ -114,6 +120,7 @@ header nav .Arnaud{
     position: relative;
     width: 40px;
     height: 40px;
+    text-align: right;
 }
 .menu_global {
     backface-visibility: hidden;
@@ -167,8 +174,8 @@ header nav .Arnaud{
 .container .things a{
     position: relative;
     transition: 400ms ease-in-out;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 .container .things div{
     width: 100%;
@@ -210,7 +217,7 @@ header nav .Arnaud{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--almost_white);
 }
